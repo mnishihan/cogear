@@ -53,19 +53,6 @@ final class HTML {
 	public static function check_plain($text) {
 		return htmlspecialchars($text, ENT_QUOTES);
 	}
-    
-    /**
-     * Encode special characters in a plain-text string for display as HTML
-	 *
-	 * @param string $text
-	 *			The text to be checked or processed.
-	 * @return 
-	 *			An HTML safe version of $text
-	 */
-	
-	public static function check_plain($text) {
-		return htmlspecialchars($text, ENT_QUOTES);
-	}
 
     /**
      * Filter attributes for defined tag
